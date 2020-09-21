@@ -3,8 +3,8 @@ config:
   socketio:
     transports: ["websocket"]
   phases:
-    - duration: 10 # Run scenario for 10 seconds
-      arrivalCount: 20 # Create 20 virtual users per scenario
+    - duration: 360 # seconds scenario runs
+      arrivalCount: 50 # Create 20 virtual users per scenario
 scenarios:
   - engine: "socketio"
     flow:

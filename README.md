@@ -2,9 +2,14 @@
 
 # Testing out socket.io with artillery and redis
 
+You will need to provide a `.env` file with the following keys:
+NEW_RELIC_LICENSE_KEY
+NEW_RELIC_HOST
+NEW_RELIC_LOG_LEVEL (optional)
+
 Run this to start app:
 ```
-docker-compose up
+npm run start-env
 ```
 
 Install artillery globally
